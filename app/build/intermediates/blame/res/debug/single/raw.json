@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\raw\\introsound.mp3",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\raw\\introsound.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\raw\\abdominales.mp4",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\raw\\abdominales.mp4"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\raw\\flexiones.mp4",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\raw\\flexiones.mp4"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gateadas.mp4",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\raw\\gateadas.mp4"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\raw\\burpees.mp4",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\raw\\burpees.mp4"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sentadillas.mp4",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\raw\\sentadillas.mp4"
+    }
+]

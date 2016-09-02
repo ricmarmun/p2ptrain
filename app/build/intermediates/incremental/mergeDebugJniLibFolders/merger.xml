@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Riky\Desktop\p2ptrain\app\src\main\jniLibs"><file name="armeabi/liballjoyn_java.so" path="C:\Users\Riky\Desktop\p2ptrain\app\src\main\jniLibs\armeabi\liballjoyn_java.so"/></source></dataSet><dataSet config="debug"><source path="C:\Users\Riky\Desktop\p2ptrain\app\src\debug\jniLibs"/></dataSet></merger>

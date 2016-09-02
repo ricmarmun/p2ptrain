@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.proyecto.ricardo.p2ptrain" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <!-- Permisos para usar TCP -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <application
+        name="org.proyecto.ricardo.p2ptrain.TrainApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.MainActivity"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.TabWidget"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.HostActivity"
+            android:label="Creando grupo de entrenamiento"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.ChatActivity"
+            android:label="Participando en grupo de entrenamiento" >
+        </activity>
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.HistoricActivity"
+            android:label="Revisando el historial de ejercicios" >
+        </activity>
+
+        <service android:name="org.proyecto.ricardo.p2ptrain.AllJoynService" >
+        </service>
+    </application>
+
+</manifest>

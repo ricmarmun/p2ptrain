@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\host.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\host.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_leave_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\chat_leave_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fade_in.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fade_out.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\host_desc_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\host_desc_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\host_exs_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\host_exs_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\historic.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\historic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\host_stop_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\host_stop_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_join_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\chat_join_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_list.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\custom_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\host_start_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\host_start_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alljoyn_error_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\alljoyn_error_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\host_name_dialog.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\host_name_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_layout.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\video_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_main.xml",
+        "source": "C:\\Users\\Riky\\Desktop\\p2ptrain\\app\\src\\main\\res\\layout\\tab_main.xml"
+    }
+]

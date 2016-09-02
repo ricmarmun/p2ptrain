@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp">
+
+           <Button
+               android:id="@+id/chatJoin"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Buscar grupo (0)"
+               />
+
+           <Button
+               android:id="@+id/chatLeave"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Dejar grupo"
+               />
+
+       </LinearLayout>
+        <LinearLayout
+            android:id="@+id/groupInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+    
+                <TableRow >
+   	                <TextView
+    	                android:text="Grupo:  "
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/chatChannelName"
+    	                android:text="1234567890" />
+                    </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+                    <TextView
+                        android:text="Ejercio:  "
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/chatChannelEjercicio"
+                        android:text="1234567890" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+                    <TextView
+                        android:text="Estado:  "
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/chatChannelStatus"
+                        android:text="1234567890" />
+                    </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <fragment
+        android:name="org.proyecto.ricardo.p2ptrain.VideoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoFrag">
+    </fragment>
+
+    <EditText
+        android:id="@+id/chatMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Escribe aquí"
+        android:imeOptions="actionDone"
+    />
+       
+    <ListView 
+        android:id="@+id/chatHistoryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:divider="#ff505050"
+        android:dividerHeight="1dp"
+        android:transcriptMode="alwaysScroll"
+    />
+</LinearLayout>

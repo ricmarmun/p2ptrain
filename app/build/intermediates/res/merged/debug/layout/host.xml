@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Aquí puedes crear y gestionar tu grupo de entrenamiento"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Información del grupo"/>
+    
+    <TableLayout android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:background="@drawable/myborder">
+    
+        <TableRow android:gravity="center">
+   	        <TextView
+    	        android:text="Nombre:  "
+                android:textStyle="bold"
+            />
+         
+            <TextView
+                android:id="@+id/hostChannelName"
+    	        android:text="Ninguno"
+            />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+            <TextView
+                android:text="Ejercicio:  "
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/hostEjercicio"
+                android:text="Ninguno"
+                />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+            <TextView
+                android:text="Descripción: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/hostChannelDesc"
+                android:text=""/>
+        </TableRow>
+        
+        <TableRow android:gravity="center">
+            <TextView
+                android:text="Estado:  "
+                android:textStyle="bold"
+            />
+         
+            <TextView
+                android:id="@+id/hostChannelStatus"
+    	        android:text="Inactivo"
+            />
+        </TableRow>
+
+    </TableLayout>
+    
+    <View
+        android:layout_width="match_parent"
+    	android:layout_height="5dip">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Gestión del grupo"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/myborder"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+	        <Button
+	            android:id="@+id/hostSetName"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+    	        android:text="Nombre"/>
+
+            <Button
+                android:id="@+id/hostSetExercise"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Ejercicio" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hostSetDescription"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Descripción"/>
+
+            <CheckBox
+                android:id="@+id/hostSetPrivate"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="¿Grupo privado?" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Control del grupo"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/myborder"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hostStart"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Iniciar grupo" />
+    
+        <Button
+            android:id="@+id/hostStop"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Detener grupo"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/hostQuit"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Salir de la aplicación" />
+</LinearLayout>

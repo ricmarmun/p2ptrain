@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.proyecto.ricardo.p2ptrain">
+    <uses-sdk android:minSdkVersion="16" />
+
+    <!-- Permisos para usar TCP -->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"></uses-permission>
+
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:name="org.proyecto.ricardo.p2ptrain.TrainApplication">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/icon">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.TabWidget"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+
+        <activity
+            android:name="org.proyecto.ricardo.p2ptrain.HostActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:label="Creando grupo de entrenamiento">
+        </activity>
+
+        <activity
+            android:name=".ChatActivity"
+            android:label="Participando en grupo de entrenamiento">
+        </activity>
+
+        <activity
+            android:name=".HistoricActivity"
+            android:label="Revisando el historial de ejercicios">
+        </activity>
+
+        <service
+            android:name="org.proyecto.ricardo.p2ptrain.AllJoynService">
+        </service>
+
+    </application>
+</manifest>

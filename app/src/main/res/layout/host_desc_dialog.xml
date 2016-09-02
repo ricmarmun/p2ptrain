@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribe una breve descripción para el grupo"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"/>
+
+    <EditText
+        android:id="@+id/hostDescChannel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:lines="5"
+        android:minLines="3"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:layout_marginTop="5dp"
+        android:hint="Descripción"
+
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/hostDescOk"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/hostDescCancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+    </LinearLayout>
+</LinearLayout>
